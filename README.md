@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/nan-academy/js-training.svg?branch=master)](https://travis-ci.org/nan-academy/js-training)
+[![Build Status](https://travis-ci.org/mtouja/js-training.svg?branch=master)](https://travis-ci.org/mtouja/js-training)
 ## Setup
-First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
+First, [**fork**](https://github.com/mtouja/js-training/fork?fragment=1) this repository.
 ### globals dependencies
 install globaly node on your computer
 
@@ -22,7 +22,7 @@ You may either use our test tool to check all files
 # run the test runner
 ./tester
 ```
-![output-tester](https://github.com/nan-academy/js-training/blob/master/img/output-tester.png)
+![output-tester](https://github.com/mtouja/js-training/blob/master/img/output-tester.png)
 
 Or you can run only a some tests with
 ```sh
@@ -34,7 +34,7 @@ Or you can test files one by one with node
 # open a file in node
 node exercises/primitives
 ```
-![output-node](https://github.com/nan-academy/js-training/blob/master/img/output-node.png)
+![output-node](https://github.com/mtouja/js-training/blob/master/img/output-node.png)
 
 *our tester may include bugs, feel free to check the code and fix it*
 
@@ -55,18 +55,18 @@ vim primitives.js
 # I can not be held responsable if you use anything else.
 ```
 
-![where-to-code](https://github.com/nan-academy/js-training/blob/master/img/where-to-code.png)
+![where-to-code](https://github.com/mtouja/js-training/blob/master/img/where-to-code.png)
 
 ## Get Help !
 We maintain an example based code documentation
 
 All you need to know to solve those exercises is described in them.
-- [Primitive and Operators](https://github.com/nan-academy/js-training/blob/master/examples/primitive-and-operators.js) [[screencast](https://scrimba.com/c/cwyaEAd)]
-- [Variables](https://github.com/nan-academy/js-training/blob/master/examples/variables.js) [[screencast](https://scrimba.com/c/cLrBKA8)]
-- [Data-Structures](https://github.com/nan-academy/js-training/blob/master/examples/data-structures.js) [[screencast](https://scrimba.com/c/c9Py3sG)]
-- [Get](https://github.com/nan-academy/js-training/blob/master/examples/get.js) [[screencast](https://scrimba.com/c/cvzg2Tq)]
-- [Set](https://github.com/nan-academy/js-training/blob/master/examples/set.js) [[screencast](https://scrimba.com/c/cbWrGcg)]
-- ...[full list](https://github.com/nan-academy/js-training/tree/master/examples)
+- [Primitive and Operators](https://github.com/mtouja/js-training/blob/master/examples/primitive-and-operators.js) [[screencast](https://scrimba.com/c/cwyaEAd)]
+- [Variables](https://github.com/mtouja/js-training/blob/master/examples/variables.js) [[screencast](https://scrimba.com/c/cLrBKA8)]
+- [Data-Structures](https://github.com/mtouja/js-training/blob/master/examples/data-structures.js) [[screencast](https://scrimba.com/c/c9Py3sG)]
+- [Get](https://github.com/mtouja/js-training/blob/master/examples/get.js) [[screencast](https://scrimba.com/c/cvzg2Tq)]
+- [Set](https://github.com/mtouja/js-training/blob/master/examples/set.js) [[screencast](https://scrimba.com/c/cbWrGcg)]
+- ...[full list](https://github.com/mtouja/js-training/tree/master/examples)
 
 And we also made you a currated list of all the most usefull methods :
 
@@ -166,7 +166,7 @@ We greatly recommand you to add your own tests to this list
 
 - add your test file *(ex: `exercises/my-test.js`)*
 - edit `package.json` and add `"my-test"` to the `"tests"` array with the syntax `{"tag": X, "name": NAME}` where you replace the tag (x) and the name (NAME)
-- make a pull request !`https://github.com/nan-academy/js-training/compare/master...GITHUB_LOGIN:master`
+- make a pull request !`https://github.com/mtouja/js-training/compare/master...GITHUB_LOGIN:master`
 
 *All the tests must be written using [assert](https://nodejs.org/api/assert.html)
 for `./tester` to work properly.*
