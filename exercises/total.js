@@ -5,6 +5,15 @@
  * and return the total
  *
  */
+function total(number) {
+    let somme = 0
+    for(let i = 0; i < number.length; i++) {
+        somme = somme + number[i];
+    }
+return(somme)
+}
+
+
 
 
 //* Begin of tests

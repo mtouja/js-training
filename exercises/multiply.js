@@ -9,6 +9,21 @@
  */
 
 // Your code :
+function multiply(num1, num2) {
+    let somme = 0;
+    let num1_is_negative = false;
+    if(num1 < 0) {
+        num1_is_negative = true;
+        num1 = -num1;
+    }
+    for(let i = 1; i <= num1; i++) {
+        somme += num2;
+    }
+    if(num1_is_negative) {
+        somme = -somme;
+    }
+    return somme;
+}
 
 //* Begin of tests
 const assert = require('assert')
